@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import "./App.css"
-//import Signin from "./components/Signin/index"
-import Info from "./components/Signin/Info"
-import Forgot_PW from './components/Signin/Forgot_PW';
+import Signin from "./components/Signin/index"
+
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/*<Signin/> */}
-        {/* <Info/> */}
-        <Forgot_PW/>
+        <Signin/>
       </div>
     );
   }
