@@ -20,26 +20,28 @@ export default function Signin() {
                             <div className={style.logo_login}>
                                 <img src={logo_alta} alt="logo_alta" width={170} height={136}/>
                             </div>
-                            <div className={style.login_form}>
-                                <div className={style.login_username_title}>
-                                    <label>Tên đăng nhập <span>*</span></label>
+                            <form>
+                                <div className={style.login_form}>
+                                    <div className={style.login_username_title}>
+                                        <label>Tên đăng nhập <span>*</span></label>
+                                    </div>
+                                    <div className={style.login_username_input}>
+                                        <input className={style.input_username} placeholder='lequynhaivan01' required></input>
+                                    </div>
+                                    <div className={style.login_password_title} >
+                                        <label>Mật khẩu <span>*</span></label>
+                                    </div>
+                                    <div className={style.login_password_input}>
+                                        <input type={passwordShown ? "text" : "password"} className={style.input_password} placeholder='213152624' Required></input><p onClick={togglePassword} className={`${style.eye_icon} fas fa-eye-slash`}></p>
+                                    </div>
+                                    <div className={style.login_forgot_password}>
+                                        <p onClick={() => history.push('/forgot_pw')} className={style.forgot_password_title}>Quên mật khẩu?</p>
+                                    </div>
+                                    <div className={style.login_button}>
+                                        <button type='submit' onClick={() => history.push('/info')} className={style.login_button_signin}>Login</button>
+                                    </div>
                                 </div>
-                                <div className={style.login_username_input}>
-                                    <input className={style.input_username} placeholder='lequynhaivan01' ></input>
-                                </div>
-                                <div className={style.login_password_title} >
-                                    <label>Mật khẩu <span>*</span></label>
-                                </div>
-                                <div className={style.login_password_input}>
-                                    <input type={passwordShown ? "text" : "password"} className={style.input_password} placeholder='213152624' ></input><p onClick={togglePassword} className={`${style.eye_icon} fas fa-eye-slash`}></p>
-                                </div>
-                                <div className={style.login_forgot_password}>
-                                    <p onClick={() => history.push('/forgot_pw')} className={style.forgot_password_title}>Quên mật khẩu?</p>
-                                </div>
-                                <div className={style.login_button}>
-                                    <button onClick={() => history.push('/info')} className={style.login_button_signin}>Login</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                     <div className={style.right_container}>

@@ -9,40 +9,43 @@ import logo_report from "./style/logo_report.svg";
 import logo_logout from "./style/logo_logout.svg";
 import logo_setting from "./style/logo_setting.svg";
 import img_user_account from "./style/img_user_account.png"
+import { useHistory } from 'react-router-dom';
 
-class Info extends Component {
-    render() {
+
+export default function Info() {
+        const history = useHistory();
         return (
             <div className={style.total_container}>
                 <div className={style.container}>
-                    <div className={style.left_container}>
-                        <div className={style.logo_login}>
-                            <img src={logo_alta} alt="logo_alta"/>
+                        <div className={style.left_container}>
+                            <div className={style.logo_login}>
+                                <img src={logo_alta} alt="logo_alta"/>
+                            </div>
+                            <div className={style.vertical_navbar}>
+                                <ul>
+                                    <li><div><img src={logo_dashboard} alt='logo_dashboard'/><a>Dashboard</a></div></li>
+                                    <li><div><img src={logo_device} alt='logo_device'/><a >Thiết Bị</a></div></li>
+                                    <li><div><img src={logo_service} alt='logo_service'/><a >Dịch vụ</a></div></li>
+                                    <li><div><img src={logo_level} alt='logo_level'/><a >Cấp số</a></div></li>
+                                    <li><div><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
+                                    <li><div><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a><span className='fas fa-ellipsis-v fa-xs'></span></div></li>
+                                    <li><div  onClick={() => history.push('/signin')} className={style.logout_button}><img src={logo_logout} alt='logo_logout'/><a>Đăng xuất</a>&nbsp;&nbsp;</div></li> 
+                                </ul>
+                            </div>
                         </div>
-                        <div className={style.vertical_navbar}>
-                            <ul>
-                                <li><div><img src={logo_dashboard} alt='logo_dashboard'/><a>Dashboard</a></div></li>
-                                <li><div><img src={logo_device} alt='logo_device'/><a >Thiết Bị</a></div></li>
-                                <li><div><img src={logo_service} alt='logo_service'/><a >Dịch vụ</a></div></li>
-                                <li><div><img src={logo_level} alt='logo_level'/><a >Cấp số</a></div></li>
-                                <li><div><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
-                                <li><div><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a><span className='fas fa-ellipsis-v fa-xs'></span></div></li>
-                                <li><div className={style.logout_button}><img src={logo_logout} alt='logo_logout'/><a>Đăng xuất</a>&nbsp;&nbsp;</div></li> 
-                            </ul>
-                        </div>
-                    </div>
                     <div className={style.right_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
                                 <p> Thông tin cá nhân</p>
                             </div>
                             <div className={style.right_title}>
-                                <div className={style.alarm_button}>
+                                
+                                {/* <div className={style.alarm_button}>
                                     <p className={`${style.alarm_button_icon} fas fa-bell`}></p>
                                     <div class={style.dropdown_content}>
                                         <p>Hello World!</p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className={style.user_account}>
                                     <div>
                                         <img src={img_user_account} width={40} height={40}></img>
@@ -118,6 +121,3 @@ class Info extends Component {
             </div>
         );
     }
-}
-
-export default Info;

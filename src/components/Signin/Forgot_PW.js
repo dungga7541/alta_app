@@ -26,7 +26,7 @@ export default function Forgot_PW () {
                             </div>  
                             <div className={style.forgot_actions}>
                                 <div className={style.left_button}>
-                                    <button>Hủy</button>
+                                    <button onClick={() => history.push('/signin')}>Hủy</button>
                                 </div>
                                 <div className={style.right_button}>
                                     <button onClick={() => history.push('/reset_pw')}>Tiếp tục</button>

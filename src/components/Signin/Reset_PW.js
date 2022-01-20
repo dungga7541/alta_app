@@ -35,7 +35,7 @@ export default function Reset_PW () {
                             <input type={passwordShown ? "text" : "password"}    className={style.input_password} placeholder='****************' ></input><p onClick={togglePassword} className={`${style.eye_icon_bottom} fas fa-eye-slash`}></p>
                         </div>
                         <div className={style.login_button}>
-                            <button onClick={() => history.push('/info')} className={style.login_button_signin}>Xác nhận</button>
+                            <button onClick={() => history.push('/signin')} className={style.login_button_signin}>Xác nhận</button>
                         </div>
                     </div>
                 </div>

@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import "./App.css"
-import Signin from "./components/Signin/index"
+import React from 'react';
+ import style from "./App.module.css"
+// import Signin from "./components/Signin/index"
+import { useHistory } from 'react-router-dom';
+import Dashboard from './components/Dashboard/DashBoard';
 
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-class App extends Component {
-  render() {
+export default function App() {
+  const history = useHistory();
     return (
-      <div className='App'>
-        <Signin/>
+      <div className={style.total_container}>
+        <Dashboard/>
+      {/* <Signin/> */}
       </div>
-    );
-  }
+  );
 }
-
-export default App;
