@@ -1,7 +1,7 @@
 .container{
     padding: 0;
     margin: 0;
-    margin-top: -20px;
+    margin-top: -24px;
 }
 .left_container{
     background-color:white;
@@ -20,17 +20,20 @@
 }
 .top_container .top_content .left_title p{
     font-weight: bold;
-    size: 2.5%;
     line-height: 30px;
     line-height: 110%;
     color: #FF9138;
     font-size: 20px;
     white-space: nowrap;
+    margin-left: 1.5%;
+    padding-top: 15px;
+    float: left;
 }
 .top_container .top_content .right_title{
     float: right;
     width: 15%;
     position: sticky;
+    padding-top: 30px;
 }
 .alarm_button .alarm_button_icon{
     float: left;
@@ -48,9 +51,11 @@
 .top_container .top_content .right_title .user_account div p{
     margin: 0;
 }
-
+.bottom_container{
+    margin-left: 13%;
+    margin-right: 13%;
+}
 .bottom_container .dashboard_title{
-margin-top: 100px;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -61,4 +66,16 @@ line-height: 36px;
 /* Orange/$-Orange-500 */
 
 color: #FF7506;
+}
+.tab_title{
+    margin-left:5%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+    padding-top: 130px;
+}
+.dashboard__top_title{
+
 }

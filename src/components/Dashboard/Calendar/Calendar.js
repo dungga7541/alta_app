@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import dayjs from "dayjs"
 import range from "lodash-es/range"
-import "./style.css"
+import "./calendar.style.css"
 
 const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 

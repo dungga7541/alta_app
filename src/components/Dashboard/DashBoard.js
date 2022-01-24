@@ -40,7 +40,7 @@ export default function Dashboard() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p> Thông tin cá nhân</p>
+                                <p className={style.dashboard_top_title}> Dashboard</p>
                             </div>
                             <div className={style.right_title}>
                                 
@@ -59,10 +59,9 @@ export default function Dashboard() {
                             </div>
                         </div>
                     <div>
-                        
                     <div className={style.bottom_container}>
                         <div className={style.dashboard_title}> 
-                            <p>Biểu đồ cấp số</p>
+                            <p className={style.tab_title}>Biểu đồ cấp số</p>
                         </div>
                         <div className={style.dashboard_content}>
                             <Dashboard_content/>

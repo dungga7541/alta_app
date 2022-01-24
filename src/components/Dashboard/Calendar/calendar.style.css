@@ -7,9 +7,8 @@ body {
 }
 
 .calendar {
-  width: 88%;
+  margin: 5px 8px 5px 5px;
   padding: 0 5% 5% 5%;
-  margin: 16px auto 0;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .1);
   border-radius: 6px;
 }
@@ -17,7 +16,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 22px 22px 22px 22px;
 
   border-radius: 6px 6px 0 0;
   color: black;
@@ -81,6 +80,6 @@ line-height: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 34px;
+  height: 42px;
 }
 
