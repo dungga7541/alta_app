@@ -71,5 +71,4 @@ return (
   </AreaChart>
 );
 }
-  
 export default ChartByDay;

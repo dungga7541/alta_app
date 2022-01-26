@@ -14,7 +14,8 @@
     height: 11%;
 }
 .right_container{
-    width: 100%;
+    width:calc(100% - 18%);
+    margin-left: 18%;
     float: right;
     position: absolute;
 }

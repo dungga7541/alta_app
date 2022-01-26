@@ -38,7 +38,7 @@ export default function Signin() {
                                         <p onClick={() => history.push('/forgot_pw')} className={style.forgot_password_title}>Quên mật khẩu?</p>
                                     </div>
                                     <div className={style.login_button}>
-                                        <button type='submit' onClick={() => history.push('/info')} className={style.login_button_signin}>Login</button>
+                                        <button type='submit' onClick={() => history.push('/dashboard')} className={style.login_button_signin}>Login</button>
                                     </div>
                                 </div>
                             </form>

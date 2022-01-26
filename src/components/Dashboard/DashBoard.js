@@ -42,7 +42,7 @@ export default function Dashboard() {
                             <div className={style.left_title}>
                                 <p className={style.dashboard_top_title}> Dashboard</p>
                             </div>
-                            <div className={style.right_title}>
+                            <div onClick={() => history.push('/info')} className={style.right_title}>
                                 
                                 <div className={style.alarm_button}>
                                     <p className={`${style.alarm_button_icon} fas fa-bell`}></p>

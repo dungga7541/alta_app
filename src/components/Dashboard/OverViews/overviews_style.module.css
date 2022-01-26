@@ -1,10 +1,11 @@
 .left_container{
-    width: 24%;
+    width: 30%;
     height: 100vh;
     background: #FFFFFF;
     float: right;
     border-radius: 8px 0px 0px 8px;
     padding-left: 24px ;
+    margin-left: 200px;
 }
 .top_title{
     /* Tổng quan */
