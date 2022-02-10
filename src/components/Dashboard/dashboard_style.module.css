@@ -30,11 +30,13 @@
     padding-top: 15px;
     float: left;
 }
+/* right title */
 .top_container .top_content .right_title{
     float: right;
     width: 15%;
     position: sticky;
     padding-top: 30px;
+    display: flex;
 }
 .alarm_button .alarm_button_icon{
     float: left;
@@ -61,11 +63,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 36px;
-/* identical to box height, or 150% */
-
-
-/* Orange/$-Orange-500 */
-
 color: #FF7506;
 }
 .tab_title{
@@ -79,4 +76,86 @@ color: #FF7506;
 }
 .dashboard__top_title{
 
+}
+/* alarm button */
+.alarm_button{
+    position: relative;
+    display: inline-block;
+}
+.alarm_button .alarm_button_icon{
+    float: left;
+    padding: 6px;
+    background-color: #FFF2E7;
+    color:#FFAC6A;
+    border-radius: 32px;
+    margin: 6px 0 0 0;
+}
+.alarm_button .dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-top: 50px;
+    width: 440px;
+    height: 600px;
+    /* padding: 0px 140px 300px 140px; */
+    margin-left: -180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+.dropdown_content .notification_title{
+    background: #FF9138;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin:0;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 24px 10px 24px;
+}
+.notification_info .maintitle{
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #BF5805;
+margin: 0;
+}
+.notification_info .subtitle{
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #535261;
+
+}
+.dropdown_content .notification_info{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0px 24px 0px 24px;
+    margin: 0;
+    
+}
+.dropdown_content .notification_info:hover {
+background: #FFF2E7;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.alarm_button:hover .dropdown_content{
+    display: block;
+}
+.noti_scroll{
+    overflow-y: scroll;
+}
+.tag_br{
+    
+opacity: 0.6;
+/* Gray/$-gray-100 */
+
+border: 1px solid #D4D4D7;
 }

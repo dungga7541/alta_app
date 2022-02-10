@@ -40,21 +40,79 @@ export default function Dashboard() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p className={style.dashboard_top_title}> Dashboard</p>
+                                <p> Thông tin cá nhân</p>
                             </div>
-                            <div onClick={() => history.push('/info')} className={style.right_title}>
-                                
+                            <div className={style.right_title}>
                                 <div className={style.alarm_button}>
                                     <p className={`${style.alarm_button_icon} fas fa-bell`}></p>
-                                    {/* <div class={style.dropdown_content}>
-                                        <p>Hello World!</p>
-                                    </div> */}
+                                    <div class={style.dropdown_content}>
+                                        <p className={style.notification_title}>Thông Báo</p>
+                                        <div className={style.noti_scroll}>
+                                            <div className={style.notification_info}>
+                                                <div>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thị Thùy Dung
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                                <hr className={style.tag_br}/>
+                                                </div>
+                                            </div>
+                                            
+                                            <div className={style.notification_info}>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thiên Chinh
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                                <hr className={style.tag_br}/>
+                                            </div>
+                                            <div className={style.notification_info}>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thị Thùy Dung
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                                <hr className={style.tag_br}/>
+                                            </div>
+                                            <div className={style.notification_info}>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thiên Chinh
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                                <hr className={style.tag_br}/>
+                                            </div>
+                                            <div className={style.notification_info}>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thị Thùy Dung
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                                <hr className={style.tag_br}/>
+                                            </div>
+                                            <div className={style.notification_info}>
+                                                <p className={style.maintitle}>
+                                                    Người dùng: Nguyễn Thiên Chinh
+                                                </p>
+                                                <p className={style.subtitle}>
+                                                    Thời gian nhận số: 12h20 ngày 30/11/2021
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className={style.user_account}>
                                     <div>
                                         <img src={img_user_account} width={40} height={40}></img>
                                         <p>Xin chào <br/><b>Lê Quỳnh Ái Vân</b></p>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +127,6 @@ export default function Dashboard() {
                     </div>
                     
                 </div>
-            </div>
             </div>
         );
     }

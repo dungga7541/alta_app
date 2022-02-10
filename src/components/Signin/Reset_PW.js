@@ -9,6 +9,10 @@ export default function Reset_PW () {
     const togglePassword = () => {
         setPasswordShown(!passwordShown);
     };
+    const [rspasswordShown, setrsPasswordShown] = useState(false);
+    const togglePassword1 = () => {
+        setrsPasswordShown(!rspasswordShown);
+    };
     const history = useHistory();
         return (
             <div className={style.container}>
@@ -26,7 +30,7 @@ export default function Reset_PW () {
                             <label>Mật khẩu </label>
                         </div>
                         <div className={style.login_username_input}>
-                            <input type={passwordShown ? "text" : "password"} className={style.input_username} placeholder='****************' ></input><p onClick={togglePassword} className={`${style.eye_icon_top} fas fa-eye-slash`}></p>
+                            <input type={rspasswordShown ? "text" : "password"} className={style.input_username} placeholder='****************' ></input><p onClick={togglePassword1} className={`${style.eye_icon_top} fas fa-eye-slash`}></p>
                         </div>
                         <div className={style.login_password_title} >
                             <label>Nhập lại mật khẩu </label>

@@ -96,8 +96,10 @@
     width: 15%;
     padding:12px 0;
 }
-.container .right_container .top_content .right_title .alarm_button{
+/* alarm button */
+.alarm_button{
     position: relative;
+    display: inline-block;
 }
 .alarm_button .alarm_button_icon{
     float: left;
@@ -107,18 +109,37 @@
     border-radius: 32px;
     margin: 6px 0 0 0;
 }
-.container .right_container .top_content .right_title .alarm_button .dropdown-content{
+.alarm_button .dropdown_content{
     display: none;
     position: absolute;
     background-color: #f6f6f6;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
     z-index: 1;
 }
-.alarm_button_icon:hover .dropdown-content{
+.dropdown_content .notification_title{
+    background: #FF9138;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.dropdown_content .notification_info{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown_content .notification_info:hover {
+    background-color: #f11
+}
+.alarm_button:hover .dropdown_content{
     display: block;
 }
+/* alarm button */
 .container .right_container .top_content .right_title .user_account div{
     padding: 0px 0px 0px 24px ;
     display: flex;

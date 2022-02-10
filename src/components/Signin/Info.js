@@ -39,13 +39,16 @@ export default function Info() {
                                 <p> Thông tin cá nhân</p>
                             </div>
                             <div className={style.right_title}>
-                                
-                                {/* <div className={style.alarm_button}>
+                                <div className={style.alarm_button}>
                                     <p className={`${style.alarm_button_icon} fas fa-bell`}></p>
                                     <div class={style.dropdown_content}>
-                                        <p>Hello World!</p>
+                                        <p className={style.notification_title}>Thông Báo</p>
+                                        <p className={style.notification_info}>Hello World!</p>
+                                        <p className={style.notification_info}>Hello World!</p>
+                                        <p className={style.notification_info}>Hello World!</p>
+                                        <p className={style.notification_info}>Hello World!</p>
                                     </div>
-                                </div> */}
+                                </div>
                                 <div className={style.user_account}>
                                     <div>
                                         <img src={img_user_account} width={40} height={40}></img>
