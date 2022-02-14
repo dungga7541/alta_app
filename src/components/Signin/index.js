@@ -3,6 +3,7 @@ import Forgot_PW from './Forgot_PW';
 import Signin from "./Signin";
 import Info from "./Info";
 import Reset_PW from "./Reset_PW";
+import Device from "../Device/Device";
 import DashBoard from "../Dashboard/DashBoard";
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
@@ -28,6 +29,9 @@ class index extends Component {
                             </Route>
                             <Route path="/dashboard">
                                 <DashBoard />
+                            </Route>
+                            <Route path="/device">
+                                <Device />
                             </Route>
                         </Switch>
                     </Router>

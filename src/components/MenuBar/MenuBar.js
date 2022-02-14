@@ -25,7 +25,14 @@ export default function MenuBar() {
                         <div className={style.vertical_navbar}>
                             <ul>
                                 <li className={style.menu_tag} ><div className={style.dashboard_active}><img src={logo_dashboard} alt='logo_dashboard'/><a>Dashboard</a></div></li>
-                                <li className={style.menu_tag}><div ><img src={logo_device} alt='logo_device'/><a >Thiết Bị</a></div></li>
+                                <li className={style.menu_tag}>
+                                    <div onClick={() => history.push('/device')}><img src={logo_device} alt='logo_device'/>
+                                        <a >Thiết Bị</a>
+                                        {/* <div>
+
+                                        </div> */}
+                                    </div>
+                                </li>
                                 <li className={style.menu_tag}><div ><img src={logo_service} alt='logo_service'/><a >Dịch vụ</a></div></li>
                                 <li className={style.menu_tag}><div ><img src={logo_level} alt='logo_level'/><a >Cấp số</a></div></li>
                                 <li className={style.menu_tag}><div ><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
