@@ -27,7 +27,7 @@ ul .menu_tag img{
     text-decoration: none;
 }
 
-.menu_tag div.dashboard_active{
+.menu_tag div.btn_active{
     background-color: #FF7506;
     font-style: normal;
     font-weight: bold;
@@ -35,8 +35,7 @@ ul .menu_tag img{
     line-height: 24px;
     color: #FFFFFF;
 }
-.menu_tag div:hover:not(.dashboard_active){
-    font-family: Nunito;
+.menu_tag div:hover:not(.btn_active){
 font-style: normal;
 font-weight: 600;
 font-size: 16px;

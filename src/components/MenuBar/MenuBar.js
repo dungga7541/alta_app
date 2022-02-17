@@ -14,7 +14,9 @@ import img_user_account from "../../static/img/img_user_account.png"
 import { useHistory } from 'react-router-dom';
 
 
+
 export default function MenuBar() {
+        
         const history = useHistory();
         return (
                 <div className={style.container}>

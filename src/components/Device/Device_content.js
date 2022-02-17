@@ -69,9 +69,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>   
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -79,9 +79,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -89,9 +89,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -99,9 +99,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -109,9 +109,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -119,9 +119,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -129,9 +129,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -139,9 +139,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -149,9 +149,9 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -159,9 +159,12 @@ export default function Dashboard_content() {
                             <td>192.168.1.10</td>
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...</td>
-                            <td><Link to="/a">Chi tiết</Link></td>
-                            <td><Link to="/a">Cập nhập</Link></td>
+                            <td>
+
+                                Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link>
+                            </td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_info">Cập nhập</Link></td>
                         </tr>
                     </table>
                     <div>
@@ -181,7 +184,7 @@ export default function Dashboard_content() {
                 </div>
                 <div className={style.add_device}>
                     <div className={style.total_add_device}>
-                        <div className={`${style.add} fas fa-plus`}></div>
+                        <div className={`${style.add} fas fa-plus`} onClick={() => history.push('/device_add')}></div>
                         <div className={style.add_title}><a>Thêm thiết bị</a></div>
                     </div>
                 </div>

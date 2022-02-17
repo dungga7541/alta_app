@@ -4,6 +4,8 @@ import Signin from "./Signin";
 import Info from "./Info";
 import Reset_PW from "./Reset_PW";
 import Device from "../Device/Device";
+import Device_info from "../Device/Device_Info/Device_info";
+import Device_add from "../Device/Device_Add/Device_add";
 import DashBoard from "../Dashboard/DashBoard";
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
@@ -32,6 +34,12 @@ class index extends Component {
                             </Route>
                             <Route path="/device">
                                 <Device />
+                            </Route>
+                            <Route path="/device_info">
+                                <Device_info/>
+                            </Route>
+                            <Route path="/device_add">
+                                <Device_add/>
                             </Route>
                         </Switch>
                     </Router>

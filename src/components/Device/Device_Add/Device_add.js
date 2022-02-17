@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import MenuBar from '../MenuBar/MenuBar';
-import style from "./device_style.module.css"
-import img_user_account from "../../static/img/img_user_account.png"
-import Device_content from './Device_content';
+import MenuBar from '../../MenuBar/MenuBar';
+import style from "./device_add_style.module.css"
+import img_user_account from "../../../static/img/img_user_account.png"
+import Device_add_content from '../Device_Add/Device_add_content';
 
 export default function Device() {
         const history = useHistory();
@@ -15,7 +15,7 @@ export default function Device() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p><a className={style.top_main_title}>Thiết bị ></a> Thông tin cá nhân</p>
+                                <p><a className={style.top_main_title}>Thiết bị > Danh sách thiết bị > </a> Thêm thiết bị</p>
                             </div>
                             <div className={style.right_title}>
                                 <div className={style.alarm_button}>
@@ -94,12 +94,13 @@ export default function Device() {
                     <div>
                     <div className={style.bottom_container}>
                         <div className={style.dashboard_title}> 
-                            <p className={style.tab_title}>Danh sách thiết bị</p>
+                            <p className={style.tab_title}>Quản lý thiết bị</p>
                         </div>
                         <div className={style.dashboard_content}>
-                            <Device_content/>
+                            <Device_add_content/>
                         </div>
                     </div>
+                    
                     
                 </div>
             </div>
