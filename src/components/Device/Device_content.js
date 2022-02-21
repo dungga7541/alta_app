@@ -71,7 +71,7 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -81,27 +81,7 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
-                        </tr>
-                        <tr>
-                            <td>KIO_01</td>
-                            <td>Kiosk</td>
-                            <td>192.168.1.10</td>
-                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
-                            <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
-                        </tr>
-                        <tr>
-                            <td>KIO_01</td>
-                            <td>Kiosk</td>
-                            <td>192.168.1.10</td>
-                            <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
-                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -111,17 +91,7 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
-                        </tr>
-                        <tr>
-                            <td>KIO_01</td>
-                            <td>Kiosk</td>
-                            <td>192.168.1.10</td>
-                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
-                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
-                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -131,7 +101,17 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
+                        </tr>
+                        <tr>
+                            <td>KIO_01</td>
+                            <td>Kiosk</td>
+                            <td>192.168.1.10</td>
+                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
+                            <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Mất kết nối</td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -141,7 +121,17 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
+                        </tr>
+                        <tr>
+                            <td>KIO_01</td>
+                            <td>Kiosk</td>
+                            <td>192.168.1.10</td>
+                            <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Ngưng hoạt động</td>
+                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -151,7 +141,17 @@ export default function Dashboard_content() {
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
                             <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
+                        </tr>
+                        <tr>
+                            <td>KIO_01</td>
+                            <td>Kiosk</td>
+                            <td>192.168.1.10</td>
+                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
+                            <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Kết nối</td>
+                            <td>Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link></td>
+                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                         <tr>
                             <td>KIO_01</td>
@@ -164,7 +164,7 @@ export default function Dashboard_content() {
                                 Khám tim mạch, Khám mắt...<br/><Link to="/device_info">Xem thêm</Link>
                             </td>
                             <td><Link to="/device_info">Chi tiết</Link></td>
-                            <td><Link to="/device_info">Cập nhập</Link></td>
+                            <td><Link to="/device_update">Cập nhập</Link></td>
                         </tr>
                     </table>
                     <div>
