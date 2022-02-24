@@ -8,6 +8,8 @@ import Device_info from "../Device/Device_Info/Device_info";
 import Device_add from "../Device/Device_Add/Device_add";
 import Device_update from "../Device/Device_Update/Device_update";
 import DashBoard from "../Dashboard/DashBoard";
+import Service from "../Service/Service";
+
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
 
@@ -44,6 +46,9 @@ class index extends Component {
                             </Route>
                             <Route path="/device_update">
                                 <Device_update/>
+                            </Route>
+                            <Route path="/service">
+                                <Service/>
                             </Route>
                         </Switch>
                     </Router>
