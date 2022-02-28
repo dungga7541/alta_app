@@ -148,7 +148,7 @@ export default function Dashboard_content() {
                 </div>
                 <div className={style.add_device}>
                     <div className={style.total_add_device}>
-                        <div className={`${style.add} fas fa-plus`} onClick={() => history.push('/device_add')}></div>
+                        <div className={`${style.add} fas fa-plus`} onClick={() => history.push('/service_add')}></div>
                         <div className={style.add_title}><a>Thêm dịch vụ</a></div>
                     </div>
                 </div>
