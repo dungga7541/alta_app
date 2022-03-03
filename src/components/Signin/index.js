@@ -10,6 +10,7 @@ import Device_update from "../Device/Device_Update/Device_update";
 import DashBoard from "../Dashboard/DashBoard";
 import Service from "../Service/Service";
 import Service_add from "../Service/Service_Add/Service_add";
+import Service_update from "../Service/Service_Update/Service_update";
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
 
@@ -52,6 +53,9 @@ class index extends Component {
                             </Route>
                             <Route path="/service_add">
                                 <Service_add/>
+                            </Route>
+                            <Route path="/service_update">
+                                <Service_update/>
                             </Route>
                         </Switch>
                     </Router>
