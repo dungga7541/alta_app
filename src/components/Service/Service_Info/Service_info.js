@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import MenuBar from '../../MenuBar/MenuBar';
-import style from "./service_update_style.module.css"
+import style from "./service_info_style.module.css"
 import img_user_account from "../../../static/img/img_user_account.png"
-import Service_update_content from '../Service_Update/Service_update_content';
+import Service_info_content from '../Service_Info/Service_info_content';
 
 export default function Device() {
         const history = useHistory();
@@ -15,7 +15,7 @@ export default function Device() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p><a className={style.top_main_title}>Dịch vụ > Danh sách dịch vụ > Chi tiết ></a> Cập nhập</p>
+                                <p><a className={style.top_main_title}>Dịch vụ > Danh sách dịch vụ > </a> Chi tiết </p>
                             </div>
                             <div className={style.right_title}>
                                 <div className={style.alarm_button}>
@@ -97,7 +97,7 @@ export default function Device() {
                             <p className={style.tab_title}>Quản lý dịch vụ</p>
                         </div>
                         <div className={style.dashboard_content}>
-                            <Service_update_content/>
+                            <Service_info_content/>
                         </div>
                     </div>
                 </div>

@@ -112,10 +112,10 @@ export default function Dashboard_content() {
                 </div>
                 <div className={style.actions}>
                     <div className={style.left_btn}>
-                        <button type='submit' className={style.cancel_button}>Hủy bỏ</button>
+                        <button type='submit' className={style.cancel_button} onClick={() => history.push('/service')}>Hủy bỏ</button>
                     </div>
                     <div className={style.right_btn}>
-                        <button type='submit' className={style.add_device_button}>Thêm dịch vụ</button>
+                        <button type='submit' className={style.add_device_button} onClick={() => history.push('/service')}>Thêm dịch vụ</button>
                     </div>
                 </div>
             </div>

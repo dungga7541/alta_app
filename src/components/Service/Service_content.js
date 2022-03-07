@@ -53,7 +53,7 @@ export default function Dashboard_content() {
                             <td>Kiosk</td>
                             <td>Mô tả dịch vụ 1</td>   
                             <td><span  className={`${style.green_dot} fas fa-circle fa-xs`}></span>Hoạt động</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/service_info">Chi tiết</Link></td>
                             <td><Link to="/service_update" >Cập nhập</Link></td>
                         </tr>
                         <tr>
