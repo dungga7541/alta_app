@@ -87,7 +87,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.blue_dot} fas fa-circle fa-xs`}></span>Đang chờ</td>
                             <td>Kiosk</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010002</td>
@@ -97,7 +97,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.gray_dot} fas fa-circle fa-xs`}></span>Đã sử dụng</td>
                             <td>Kiosk</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010003</td>
@@ -107,7 +107,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.blue_dot} fas fa-circle fa-xs`}></span>Đang chờ</td>
                             <td>Hệ thống</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010004</td>
@@ -117,7 +117,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.blue_dot} fas fa-circle fa-xs`}></span>Đang chờ</td>
                             <td>Hệ thống</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010005</td>
@@ -127,7 +127,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.blue_dot} fas fa-circle fa-xs`}></span>Đang chờ</td>
                             <td>Kiosk</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010006</td>
@@ -137,7 +137,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.gray_dot} fas fa-circle fa-xs`}></span>Đã sử dụng</td>
                             <td>Hệ thống</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010007</td>
@@ -147,7 +147,7 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.gray_dot} fas fa-circle fa-xs`}></span>Đã sử dụng</td>
                             <td>Kiosk</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010008</td>
@@ -157,17 +157,17 @@ export default function Dashboard_content() {
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.red_dot} fas fa-circle fa-xs`}></span>Bỏ qua</td>
                             <td>Hệ thống</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                         <tr>
                             <td>2010009</td>
-                            <td>Kiosk</td>
+                            <td>Lê Thị Cẩm Tiên</td>
                             <td>Khám tai mũi họng</td>
                             <td>14:35 - 07/11/2021</td>
                             <td>14:35 - 12/11/2021</td>
                             <td><span  className={`${style.gray_dot} fas fa-circle fa-xs`}></span>Đã sử dụng</td>
                             <td>Hệ thống</td>
-                            <td><Link to="/device_info">Chi tiết</Link></td>
+                            <td><Link to="/level_management_info">Chi tiết</Link></td>
                         </tr>
                     </table>
                     <div>

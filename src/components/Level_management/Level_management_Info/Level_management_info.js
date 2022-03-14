@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import MenuBar from '../../MenuBar/MenuBar';
-import style from "./device_info_style.module.css"
+import style from "./level_management_info_style.module.css"
 import img_user_account from "../../../static/img/img_user_account.png"
-import Device_info_content from '../Device_Info/Device_info_content';
+import Level_management_info_content from '../Level_management_Info/Level_management_info_content';
 
 export default function Device() {
         const history = useHistory();
@@ -15,7 +15,7 @@ export default function Device() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p><a className={style.top_main_title}>Thiết bị > Danh sách thiết bị > </a> Chi tiết thiết bị</p>
+                                <p><a className={style.top_main_title}>Thiết bị > Danh sách cấp số > </a> Chi tiết</p>
                             </div>
                             <div className={style.right_title}>
                                 <div className={style.alarm_button}>
@@ -82,22 +82,16 @@ export default function Device() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={style.user_account}>
-                                    <div>
-                                        <img src={img_user_account} width={40} height={40}></img>
-                                        <p>Xin chào <br/><b>Lê Quỳnh Ái Vân</b></p>
-                                    </div>
-                                </div>
                                 </div>
                             </div>
                         </div>
                     <div>
                     <div className={style.bottom_container}>
                         <div className={style.dashboard_title}> 
-                            <p className={style.tab_title}>Quản lý thiết bị</p>
+                            <p className={style.tab_title}>Quản lý cấp số</p>
                         </div>
                         <div className={style.dashboard_content}>
-                            <Device_info_content/>
+                            <Level_management_info_content/>
                         </div>
                     </div>
                     
