@@ -1,0 +1,183 @@
+.container{
+    width: 100%;
+    height: calc(79vh + 5px);
+
+}
+.top_container{
+    padding: 3% 3% 0% 3%;
+}
+.bottom_container{
+    padding: 0% 3% 0% 3%;
+}
+.content_container{
+    margin-left: 5%;
+    width: 100%;
+    height: calc(100vh - 32%);
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+/* Add device */
+.add_device{
+    float: right;
+    background: #FFF2E7;
+    position: absolute;
+    width: 80px;
+    height: 94px;
+    right: 0;
+    top: 20%;
+}
+
+.total_add_device{
+    padding:10px 0px 10px 0px;
+    background-color: #FFF2E7;
+}
+.add{
+    margin:12px 25px 10px 25px;
+    padding: 6px;
+background: #FF9138;
+border-radius: 8px;
+color: white;
+}
+.add_title{
+    font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #FF7506;
+}
+.middle_title{
+    margin: 0 34%;
+}
+.middle_content >.sub_title{
+    margin-left: 20px;
+}
+.top_content{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Orange/$-Orange-500 */
+    text-align: center;
+    color: #FF7506;
+}
+.main_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    align-items: center;
+    color: #282739; 
+    order: 0;
+    flex-grow: 0;
+}
+.sub_title{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+align-items: center;
+color: #535261;
+padding-left: 43px;
+}
+.content_title{
+    padding: 16px 16px 16px 0;
+}
+.used_title{
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    align-items: center;
+    color: #535261;
+    padding-top: 5px;
+}
+.bottom_content{
+    /* 20/20 Bold */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #535261;
+}
+/* button */
+.actions{
+    display: flex;
+    margin-top: 80px;
+}
+
+.cancel_button{
+    
+/* Auto layout */
+width: 147px;
+height: 48px;
+background: #FFF2E7;
+border: 1.5px solid #FF9138;
+box-sizing: border-box;
+box-shadow: 0px 0px 6px #E7E9F2;
+border-radius: 8px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+
+color: #FF9138;
+}
+.left_btn{
+    margin-left: 35%;
+}
+.right_btn{
+    margin-right: 35%;
+}
+.left_btn,.right_btn{
+    padding: 20px
+
+}
+.add_device_button{
+    width: 147px;
+    height: 48px;
+    background: #FF9138;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+color: #FFFFFF;
+}
+.combobox_title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    }
+    .combobox_content{
+        padding: 10px 0px;
+    }
+    .combobox_content_select{
+        width: 400px;
+        height: 44px;
+        background: #FFFFFF;
+        border: 1.5px solid #D4D4D7;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
