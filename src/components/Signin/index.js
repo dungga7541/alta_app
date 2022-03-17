@@ -14,6 +14,8 @@ import Service_update from "../Service/Service_Update/Service_update";
 import Service_info from "../Service/Service_Info/Service_info";
 import Level_Management from "../Level_management/Level_management.js";
 import Level_Management_Info from "../Level_management/Level_management_Info/Level_management_info.js";
+import Level_Management_Add from "../Level_management/Level_management_Add/Level_management_add.js";
+
 
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
@@ -69,6 +71,9 @@ class index extends Component {
                             </Route>
                             <Route path="/level_management_info">
                                 <Level_Management_Info/>
+                            </Route>
+                            <Route path="/level_management_add">
+                                <Level_Management_Add/>
                             </Route>
                         </Switch>
                     </Router>
