@@ -37,8 +37,8 @@ export default function MenuBar() {
                                 </li>
                                 <li className={style.menu_tag}><div  onClick={() => history.push('/service')}><img src={logo_service} alt='logo_service'/><a >Dịch vụ</a></div></li>
                                 <li className={style.menu_tag}><div  onClick={() => history.push('/level_management')}><img src={logo_level} alt='logo_level'/><a >Cấp số</a></div></li>
-                                <li className={style.menu_tag}><div ><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
-                                <li className={style.menu_tag}><div ><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a><span className='fas fa-ellipsis-v fa-xs'></span></div></li>
+                                <li className={style.menu_tag}><div  onClick={() => history.push('/report')}><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
+                                <li className={style.menu_tag}><div  onClick={() => history.push('/settings')}><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a><span className='fas fa-ellipsis-v fa-xs'></span></div></li>
                                 <li className={style.menu_tag}><div  onClick={() => history.push('/signin')} className={style.logout_button}><img src={logo_logout} alt='logo_logout'/><a>Đăng xuất</a>&nbsp;&nbsp;</div></li> 
                             </ul>
                         </div>
