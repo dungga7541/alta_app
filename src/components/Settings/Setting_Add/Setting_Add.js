@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import MenuBar from '../../MenuBar/MenuBar';
 import style from "./setting_add_style.module.css"
 import img_user_account from "../../../static/img/img_user_account.png"
-import Setting_Add_content from './Setting_Add_content';
+import Setting_Add_content from '../Setting_Add/Setting_Add_content';
 
 export default function Device() {
         const history = useHistory();
@@ -15,7 +15,7 @@ export default function Device() {
                     <div className={style.top_container}>
                         <div className={style.top_content}>
                             <div className={style.left_title}>
-                                <p><a className={style.top_main_title}>Cài đặt hệ thống ></a> Quản lý vai trò</p>
+                                <p><a className={style.top_main_title}>Dịch vụ > Danh sách dịch vụ > Chi tiết ></a> Cập nhập</p>
                             </div>
                             <div className={style.right_title}>
                                 <div className={style.alarm_button}>
@@ -94,7 +94,7 @@ export default function Device() {
                     <div>
                     <div className={style.bottom_container}>
                         <div className={style.dashboard_title}> 
-                            <p className={style.tab_title}>Danh sách vai trò</p>
+                            <p className={style.tab_title}>Quản lý dịch vụ</p>
                         </div>
                         <div className={style.dashboard_content}>
                             <Setting_Add_content/>
