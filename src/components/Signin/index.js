@@ -17,7 +17,13 @@ import Level_Management_Info from "../Level_management/Level_management_Info/Lev
 import Level_Management_Add from "../Level_management/Level_management_Add/Level_management_add.js";
 import Report from "../Report/Report";
 import Settings from "../Settings/Setting";
-import Settings_add from "../Settings/Setting_Add/Setting_Add";
+import Settings_Add from "../Settings/Role/Setting_Add/Setting_Add";
+import Settings_Update from "../Settings/Role/Setting_Update/Setting_Update";
+import Settings_Account_Info from "../Settings/Accounts/Account_Info";
+import Settings_Account_Add from "../Settings/Accounts/Account_Add/Account_Add.js";
+import Settings_Account_Update from "../Settings/Accounts/Account_Update/Account_Update.js";
+import Activity_Log from "../Settings/Activity_log/Activity_Log";
+
 
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 // import routes from "../routes";
@@ -84,7 +90,22 @@ class index extends Component {
                                 <Settings/>
                             </Route>
                             <Route path="/settings_add">
-                                <Settings_add/>
+                                <Settings_Add/>
+                            </Route>
+                            <Route path="/settings_update">
+                                <Settings_Update/>
+                            </Route>
+                            <Route path="/settings_account_info">
+                                <Settings_Account_Info/>
+                            </Route>
+                            <Route path="/settings_account_add">
+                                <Settings_Account_Add/>
+                            </Route>
+                            <Route path="/settings_account_update">
+                                <Settings_Account_Update/>
+                            </Route>
+                            <Route path="/activity_log">
+                                <Activity_Log/>
                             </Route>
                         </Switch>
                     </Router>
