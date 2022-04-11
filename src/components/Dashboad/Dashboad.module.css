@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dashboad{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+.middle{
+    flex: 2.9 1;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 965px;
+    background: #F7F7F7;
+}
+.dashboad .bottom{
+    margin-bottom: 50px;
+}

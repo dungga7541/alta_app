@@ -1,0 +1,258 @@
+.service{
+    position: relative;
+}
+.serviceinfo{
+    display:flex;
+    justify-content:space-between;
+}
+.serviceinfolist{
+    display: flex;
+    align-items: center;
+}
+.servicetitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7E7D88;
+}
+.servicegoto{
+    color: #7E7D88;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.servicegoto{
+    color: #7E7D88;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.servicelist{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7506;
+
+}
+
+.bell{
+    padding-right: 40px;
+}
+
+.servicecontainer{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 20px;
+}
+.servicelisttitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+}
+.service_taskbar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.serviceitemdrow{
+    display: flex;
+    width: 95%;
+}
+.service_item{
+    margin-right: 26px;
+}
+.taskbar_name{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+}
+
+.fi_search{
+    position: absolute;
+    right: 101px;
+    top: 159px;
+}
+
+.goright{
+    height: 5px;
+    width: 4.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.servicedrow{
+    width: 300px;
+} 
+.servicedrowcalendar{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.servicedrow input{
+    padding: 10px 16px 10px 12px;   
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 300px;
+    height: 44px;
+}
+
+.tablelistitem{
+    margin-bottom:10px;
+    width: 100%;
+    filter: drop-shadow(2px 2px 8px rgba(232, 239, 244, 0.8));
+    border-radius: 12px;
+    display: flex;
+    flex-direction:column;
+    overflow:hidden;
+    padding: 0px;
+    margin-top:20px;
+}
+
+.service_table{
+    display: flex;
+    color:white;
+    width: 100%;
+    background: #FF9138;
+}
+.service_table_list{
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+}
+.service_table_list:nth-child(2n+1){
+    background: #FFF2E7;
+}
+.servicetablelistid{
+    display: flex;
+    color:white;
+    width: 100%;
+    background: #FFF2E7;
+}
+
+.serviceitemname{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 49px;
+    border-right: 1px solid #FFE3CD
+}
+
+.serviceitemnametitle{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.logo{
+    margin-left: 10px;
+}
+.serviceitemlist{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.serviceitemnameid{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 49px;
+    border-right: 1px solid #FFE3CD;
+}
+
+.serviceitemnametitleid{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 16px;
+    line-height: 24px;
+}
+.serviceitemnametitle{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+.serviceitemlistnew{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4277FF;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    text-align: center;
+    justify-content: center;
+    color: #4277FF;
+    margin-left: 25px;
+}
+.add{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    left: 1520px;
+    top: 209px;
+    display: flex;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px 0px 0px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 4px;
+    background: #FFF2E7;
+}
+
+.addservice{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FF7506;
+    flex: none;
+    margin: 4px 7px
+}
+.servicetitlename{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FF7506;
+    padding: 7px
+}
+
+.chosepape{
+    width:90%;
+    margin-top:40px;
+    display:flex;
+    justify-content: flex-end;
+}

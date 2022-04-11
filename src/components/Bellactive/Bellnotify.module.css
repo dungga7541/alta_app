@@ -1,0 +1,76 @@
+.bellactive{
+    display: flex;
+    align-items: center;
+}
+.notify{
+    position: absolute;
+    left: 1150px;
+    top: 70px;
+    width: 330px;
+    height: 430px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 10px;
+    z-index: 1;
+    display: flex   ;
+    flex-direction: column;
+}
+span{
+    text-decoration: none;
+}
+.notifytitle{
+    background: #FF9138;
+    color: #FFFFFF;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 3px;
+}
+.notifylist{
+    display: flex   ;
+    flex-direction: column;
+    overflow: scroll;
+    margin-left: 20px;
+}
+.notifylink{
+    padding-top: 8px;
+    border-bottom: 1.5px solid #D4D4D7;
+    opacity: 0.6;
+}
+.name {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(191, 88, 5, 1);
+}
+.time{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #535261;
+}
+.avata{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.hello{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px; 
+    color: #7E7D88;
+}
+.nameaccount{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+}

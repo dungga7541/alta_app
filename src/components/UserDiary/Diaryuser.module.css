@@ -1,0 +1,253 @@
+.diary{
+    position: relative;
+    width: 100%;
+    height: 930px;
+    padding: 20px;
+    background: #F7F7F7;
+}
+.diarygoto{
+    color: #7E7D88;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.diaryinfo{
+    display:flex;
+    justify-content:space-between;
+    /* padding: 20px 0px; */
+}
+.diarytablelist:nth-child(2n+1){
+    background: #FFF2E7;
+}
+.diaryinfolist{
+    display: flex;
+    align-items: center;
+}
+.diarytitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7E7D88;
+}
+
+.diarygoto{
+    color: #7E7D88;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.diarylist{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7506;
+
+}
+
+.bell{
+    padding-right: 40px;
+}
+
+.diarycontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* .listadd{
+    display: flex;
+    flex-direction: column
+} */
+.diarylisttitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+
+}
+
+.diarylistitem{
+    width: 1005;
+
+}
+
+.diarylistdrow{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.diaryitemdrow{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.diaryitem{
+    margin-right: 20px;
+}
+.listitem{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.goright{
+    height: 5px;
+    width: 4.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.diaryname{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+}
+.diarydrow{
+    width: 300px;
+} 
+.diarydrowcalendar{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.diarydrow input{
+    padding: 10px 16px 10px 12px;   
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 240px;
+    height: 44px;
+}
+
+.fi_search{
+    position: absolute;
+    right: 110px;
+    top: 120px;
+}
+.tablelistitem{
+    margin-bottom:10px;
+    width: 100%;
+    filter: drop-shadow(2px 2px 8px rgba(232, 239, 244, 0.8));
+    border-radius: 12px;
+    display: flex;
+    flex-direction:column;
+    overflow:hidden;
+    padding: 0px;
+    margin-top:20px;
+}
+
+.diarytable{
+    /* display: grid;
+    grid-template-columns: 93px 162px 171px 161px 174px 147px 120px 78px; */
+    display: flex;
+    color:white;
+    width: 100%;
+    background: #FF9138;
+}
+.diarytablelist{
+    display: flex;
+    /* color:white; */
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.diarytablelistid{
+    display: flex;
+    color:white;
+    width: 100%;
+    background: #FFF2E7;
+}
+
+.diaryitemname{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 49px;
+    border-right: 1px solid #FFE3CD
+}
+
+.diaryitemnametitle{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.diaryitemnametitle{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.diaryitemlist{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #535261;
+    margin-left: 10px;
+}
+.diaryitemnameid{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 49px;
+    border-right: 1px solid #FFE3CD;
+}
+
+.diaryitemnametitleid{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.diaryitemnametitle{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.diaryitemlistnew{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4277FF;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    text-align: center;
+    justify-content: center;
+    color: #4277FF;
+    margin-left: 25px;
+}
+.chosepape{
+    width:90%;
+    margin-top:20px;
+    display:flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,112 @@
+.resetpassword{
+    display: flex;
+    width: 1440px;
+    height:  810px;
+    position: relative;
+    border-radius: 4px;
+}
+.left{
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 592px;
+    height: auto;
+}
+h4{
+    position: absolute;
+    height: 33px;
+    width: 211px;
+    left: 198px;
+    top: 290px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #282739;
+}
+.alta{
+    position: absolute;
+    width: 170px;
+    height: 136px;
+    left: 200px;
+    top: 82px;
+}
+
+.form{
+    position: absolute;
+    width: 400px;
+    left: 94px;
+    top: 360px;
+    height: 810px;
+}
+.title{
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 220px 10px 12px;
+}
+.password{
+    margin: 4px 0px;
+}
+.enterpassword{
+    margin: 4px 0px;
+    padding-top: 10px;
+}
+.eyeclose{
+    position: absolute;
+    top: 37px;
+    right: 21px;
+}
+.eyeclosepass{
+    position: absolute;
+    top: 112px;
+    right: 21px;
+}
+.sumit{
+    padding: 10px 24px;
+    background: #FF9138;
+    shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    left: 208px;
+    top: 540px; 
+    cursor: pointer;
+}
+.confirm{
+    color: #FFF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.right{
+    width: 848px;
+    height: auto;
+}
+
+.pic5{
+    position: absolute;
+    width: 605px;
+    height: 614.06px;
+    left: 671px;
+    top: 112.94px;
+}
+.pic8{
+    position: absolute;
+    left: 1046px;
+    top: 407px;
+}
+.pic6{
+    position: absolute;
+    left: 1046px;
+    top: 454px;
+}

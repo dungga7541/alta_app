@@ -1,0 +1,132 @@
+.Sliderbar{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    align-items: center;
+    border-radius: 16px 0px 0px 16px;
+    width: 15%;
+    height: 100%;
+}
+.alta{
+    margin-top: 20px;
+}
+.altaIMG{
+    margin-top: 20px;
+    width: 80px;
+    height: 64px;
+}
+.list{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+.list .Link{
+    margin-left: 10%;
+}
+.list .title{
+    margin-left: 3%;
+}
+.SliderbarItem{
+    padding: 15px 0px;
+}
+.Link{
+    display: flex;
+    color: #7E7D88;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.SliderbarItem:hover{
+    background-color: #FF7506;
+    color: #FFFFFF;
+}
+.SliderbarItem:hover.title{
+    color:#FFFFFF;
+}
+
+.active{
+    background-color: #FF7506;
+}
+.active .title{
+    color: #FFFFFF ;
+}
+
+
+.title{
+    margin-left: 7px;
+}
+.three{
+    margin-left: 20px;
+}
+.subnav{
+    position: absolute;
+    left: 150px;
+    top: 410px;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 0;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.item{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    height: 34px;
+    color: #7E7D88;
+    padding: 10px;
+
+}
+.subnav {
+    width: 170px;
+    margin-left: 5%;
+}
+.Linksubnav:hover .item{
+
+    color: white;
+}
+.subnav .list_subnav:hover{
+    background-color: #FF7506;
+}
+.subnav .list_subnav1:hover{
+    background-color: #FF7506;
+    border-radius: 0px 12px 0px 0px;
+}
+.subnav .list_subnav2:hover{
+    background-color: #FF7506;
+    border-radius: 0px 0px 12px 0px;
+}
+
+
+.logout{
+    position: absolute;
+    width: 9%;
+    height: 37px;
+    top: 900px;
+    background: #FFF2E7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.out{
+    margin-left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Linkout{
+    color: #FF7506;
+    display: flex;
+    margin-left: 5px;
+}
